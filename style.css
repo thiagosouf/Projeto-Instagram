@@ -1,0 +1,112 @@
+body{
+    background-color: #FAFAFA;
+}
+
+.topo{
+    background: #FFFFFF;
+    width: 935px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    top:0;left:0;
+    width: 100%;
+}
+.logo{
+    
+    width: 145px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    
+    
+}
+.logo img,
+.logo hr{
+    align-self: center;
+}
+hr{
+    border: none;
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+}
+.buscar{
+    margin:auto 0;
+}
+.caixa-busca{
+    background-color: #FAFAFA;
+    width: 215px;
+    height: 28px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+.icons{
+    width: 120px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.icons img{
+    width: 20px;
+    height: 20px;
+    
+    
+}
+.conteudos{
+    width: 935px;
+    height: 800px; 
+    border: 1px solid black;
+    display: flex;
+    margin: 0 auto;
+    background-color: #E5E5E5;
+    margin-top: 82px;
+}
+.conteudo-esquerda{
+    width: 75%;
+    width: 614px;
+    border: 1px solid red;
+}
+.stories{
+    width: 614px;
+    height: 118px; 
+    border: 1px solid black;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: blue;
+}
+
+.story img{
+    width: 58px;
+    height: 58px;
+    margin-left: 22px;
+    background-color: yellow;
+    margin-top:20px;
+    
+}
+.story p{
+    background-color: red;
+    margin-left: 22px;
+    text-align: center;
+    margin-top:0;
+
+}
+.postagens{
+    height: 700px;
+    border: 1px solid blue;
+}
+.conteudo-direita{
+    /* border: 1px solid yellow;  */
+    height: 300px;
+    width: 307px;
+    background-color: coral;
+}
