@@ -295,3 +295,40 @@ font-size: 11px;
 
  }
 
+ @media (max-width: 935px) {
+    .conteudo-direita{
+        display: none;
+    }
+
+    .conteudos{
+        justify-content: center;
+    }
+    .topo{
+        margin: 0 18px;
+    }
+ }
+ @media (max-width: 614px) {
+     hr, .caixa-busca, .icons ion-icon:nth-child(2),.icons ion-icon:nth-child(3),.icons ion-icon:nth-child(4){
+         display:none;
+     }
+     .logo{
+         width: 60%;
+
+     }
+
+     .icons{
+         width: 30px;
+         flex-direction: row-reverse;
+     }
+     .conteudos{
+        width: 100%;
+        margin-top: 54px;
+    }
+    .setinha{
+        display:none;
+    }
+    .postagens{
+        margin-top:0;
+    }
+ }
+
